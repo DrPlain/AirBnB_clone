@@ -80,9 +80,10 @@ class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
 
     def precmd(self, line):
-        if '.' in line:
-            cls, comd = line.split('.')
-            comd = comd.split('(')[0]
+        if '.' in line and '(' in line:
+            #cls, comd = line.split('.')
+            cls, comd = line.split('(')[0].split('.')
+            #comd = comd.split('(')[0]
 
             # Gets the arg inside bracket
             cmd_args = line.split('(')[1]
