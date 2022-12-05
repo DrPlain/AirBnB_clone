@@ -1,0 +1,28 @@
+section.places {
+	max-width: 1000px;
+	font-size: 30px;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+}
+
+section.places h1{
+	width: 100%;
+	padding-left: 22px;
+	text-align: left;
+}
+section.places article{
+	margin: 20px;
+	width: 390px;
+	border: 1px solid #ff5a5f;
+	border-radius: 4px;
+	padding: 20px;
+	margin-top: 50px;
+	position: relative;
+	right: 350px;
+	top: 50px;
+}
+section.places article h2{
+	text-align: center;
+	font-size: 30px;
+}
